@@ -1,7 +1,16 @@
-## 姜文 1035465284 phone:18310349227
-## 全日制vue + 周末node
-## react
-## angular4 + ts typescript
+## node调试程序
+```
+node --inspect-brk 01_run.js
+```
+
+浏览器打开
+```
+chrome://inspect/#devices
+```
+![commonjs](commonjs.png)
+
+每一个文件是一个模块 , 有自己的作用域
+
 
 ## es6 82原则 let const ... => class
 
