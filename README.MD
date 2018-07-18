@@ -17,7 +17,7 @@ chrome://inspect/#devices
 5. 模块加载时,模块内的语句也会被加载,并且只会加载一次,后面调用时会使用缓存,如果不想被执行,应该放到函数里
 
 ## exports 是 module.exports的快捷方法
-exports = {} 会指向新的地址 , 脱离与module.exports的关系 
+exports = {} 会指向新的地址 , 脱离与module.exports的关系
 
 ## es6 82原则 let const ... => class
 
