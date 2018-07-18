@@ -19,6 +19,10 @@ chrome://inspect/#devices
 ## exports 是 module.exports的快捷方法
 exports = {} 会指向新的地址 , 脱离与module.exports的关系
 
+## __dirname 与 process.cwd()
+`__dirname ` 总是返回文件的绝对路径
+`process.cwd()` 返回的是node命令执行时所在的文件夹
+
 ## es6 82原则 let const ... => class
 
 ## vue数据驱动(主要操作的是数据)
